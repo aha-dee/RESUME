@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的简历</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: #fff;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h1, h2, h3 {
+      margin: 0 0 1rem;
+      color: #333;
+    }
+    p {
+      margin: 0 0 1rem;
+    }
+    .header, .section {
+      margin-bottom: 2rem;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      color: #007bff;
+    }
+    .section h2 {
+      font-size: 1.5rem;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .section ul {
+      list-style: none;
+      padding: 0;
+    }
+    .section ul li {
+      margin-bottom: 1rem;
+    }
+    .contact-info, .skills, .experience, .education {
+      margin-bottom: 1.5rem;
+    }
+    .contact-info p {
+      margin: 0.5rem 0;
+      display: flex;
+      align-items: center;
+    }
+    .contact-info p img {
+      margin-right: 0.5rem;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .contact-info div {
+      flex: 1;
+      min-width: 200px;
+      margin-bottom: 1rem;
+    }
+    .section ul li p {
+      margin: 0.2rem 0 0.5rem;
+    }
+    .section h3 {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+    .section li h3 {
+      font-size: 1rem;
+      color: #007bff;
+    }
+    .spacer {
+      margin-left: 0.5rem;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    .button {
+      display: inline-block;
+      padding: 8px 16px;
+      margin: 5px 0;
+      font-size: 14px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>AHA</h1>
+    <div class="contact-info">
+      <div>
+        <p><img src="images/email.png" alt="Email" width="20" height="20"><span class="spacer"></span>邮箱: AHA@outlook.com</p>
+        <p><img src="images/tel.png" alt="Phone" width="20" height="20"><span class="spacer"></span>电话: 18888888888</p>
+      </div>
+      <div>
+        <p><img src="images/location.png" alt="Location" width="20" height="20"><span class="spacer"></span>地区: 中国 上海</p>
+        <p><img src="images/political.png" alt="Political" width="20" height="20"><span class="spacer"></span>政治面貌: 中共预备党员</p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>教育背景</h2>
+    <ul>
+      <li>
+        <h3>兰州财经大学 计算机科学与技术专业</h3>
+        <p>2022.08 - 至今</p>
+        <p>已修课程: 计算机导论、计算机组成与结构、计算机网络、程序设计基础（Java/Python） 、 数据结构与算法 、
+          操作系统 、数据库系统 、软件工程离散数学 、计算理论 、编译原理 、人工智能等</p>
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>校园经历</h2>
+    <ul>
+      <li>
+        <h3>信息工程与人工智能学院 | 第五党支部 党支部支委-组织委员</h3>
+        <p>发展党员：负责按照党章和上级党组织的规定，做好入党积极分子的培养和发展党员工作，严格按照程序和标准进行考察、审批。</p>
+        <p>党员教育：组织党员学习党的理论、路线、方针、政策，开展党课教育，促进党员不断提高思想政治素质和理论水平。</p>
+        <p>组织生活：组织召开党支部大会、支部委员会、党小组会，指导和监督党内民主生活会的开展，确保党内生活的正常进行。</p>
+      </li>
+      <li>
+        <h3>数学建模 | 学术创新部门 学生干事</h3>
+        <p>研究项目管理：协助管理和跟进学生参与的数学建模研究项目，包括项目进度跟踪、数据收集和成果展示等。</p>
+        <p>创新活动：策划和组织创新项目展示、创意大赛等活动，激发学生的创新思维和实践能力。</p>
+        <p>竞赛筹备：参与数学建模竞赛的组织工作，包括宣传竞赛、报名管理、竞赛安排以及后勤保障等。</p>
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>开源贡献和个人项目</h2>
+    <ul>
+      <li>
+        <h3>开源项目贡献</h3>
+        <p>参与了开源项目XXX的开发，贡献了多个功能模块和bug修复。</p>
+        <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+      </li>
+      <li>
+        <h3>个人项目: 个人博客平台</h3>
+        <p>独立开发了一个个人博客平台，支持Markdown编辑、评论、标签等功能。</p>
+        <p>技术栈: Django, SQLite, Bootstrap</p>
+        <p>在线演示: <a href="https://yourblog.com">yourblog.com</a></p>
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>技术博客和演讲</h2>
+    <ul>
+      <li>
+        <h3>技术博客</h3>
+        <p>定期在个人博客撰写技术文章，涵盖编程、算法、框架等内容。</p>
+        <p>博客地址: <a href="https://yourblog.com">yourblog.com</a></p>
+      </li>
+      <li>
+        <h3>技术演讲</h3>
+        <p>在校内外多次进行技术分享，主题包括“Spring Boot入门”、“数据结构与算法”等。</p>
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>项目经历</h2>
+    <ul>
+      <li>
+        <h3>项目名称: 学生管理系统</h3>
+        <p><strong>项目描述:</strong> 该项目旨在开发一个学生管理系统，用于管理学生的个人信息、成绩、出勤记录等。</p>
+        <p><strong>责任:</strong> 负责后端开发，使用 Spring Boot 和 MySQL 构建 RESTful API，集成前端和后端，进行单元测试和调试。</p>
+        <p><strong>技术栈:</strong> Java, Spring Boot, MySQL, RESTful API, JUnit</p>
+        <p><strong>成果:</strong> 成功上线，系统提高了管理效率，用户反馈良好。</p>
+      </li>
+      <li>
+        <h3>项目名称: 在线购物平台</h3>
+        <p><strong>项目描述:</strong> 开发一个在线购物平台，包括商品展示、购物车、订单管理等功能。</p>
+        <p><strong>责任:</strong> 参与前端开发，使用 React 和 Redux 构建用户界面，优化用户体验，确保响应式设计。</p>
+        <p><strong>技术栈:</strong> JavaScript, React, Redux, HTML, CSS</p>
+        <p><strong>成果:</strong> 平台成功上线，用户量稳步增长，销售额提高了20%。</p>
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2>证书和培训</h2>
+    <ul>
+      <li>
+        <h3>计算机等级证书</h3>
+        <p>全国计算机等级考试三级网络技术</p>
+      </li>
+      <li>
+        <h3>编程证书</h3>
+        <p>Python编程认证, Java SE 8 Programmer I 认证</p>
+      </li>
+      <li>
+        <h3>培训经历</h3>
+        <p>参加了由XX公司举办的高级Java开发培训，系统学习了Spring框架、微服务架构等内容。</p>
+      </li>
+    </ul>
+  </div>
+  <div class="buttons">
+    <a href="projectDetails.html" class="button">查看项目详细信息</a>
+    <a href="introduction.html" class="button">视频自我介绍</a>
+    <a href="resume.pdf" download="AHA_Resume.pdf" class="button">下载简历</a>
+    <a href="mailto:AHA@outlook.com" class="button">联系我</a>
+</div>
+</div>
+</body>
+</html>
